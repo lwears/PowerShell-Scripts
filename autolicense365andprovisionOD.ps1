@@ -23,15 +23,15 @@ Import-Module Microsoft.Online.SharePoint.PowerShell -DisableNameChecking
   
  
 #Must be SharePoint Administrator URL
-$webUrl = "https://netent-admin.sharepoint.com";
+$webUrl = "https://Company-admin.sharepoint.com";
  
 #update and store password as necessary
 $logfile = 'c:\ScheduledTasks\StudentLicensesAdded.txt';
 $passwordfile = 'C:\ScheduledTasks\passwordfile.txt';
  
-$username = "auto.licenser@netent.com";
+$username = "auto.licenser@Company.com";
  
-$passwd = "Netent2016"
+$passwd = "Company2016"
 
 $secpasswd = ConvertTo-SecureString $passwd -AsPlainText -Force
  

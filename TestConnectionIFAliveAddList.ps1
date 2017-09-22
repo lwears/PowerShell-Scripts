@@ -1,4 +1,4 @@
-﻿$ComputerList = Get-ADComputer -SearchBase "OU=WSUS Managed,OU=WindowsServer,OU=OFFICE,DC=office,DC=necorp,DC=dom" -Filter *
+﻿$ComputerList = Get-ADComputer -SearchBase "OU=WSUS Managed,OU=WindowsServer,OU=OFFICE,DC=office,DC=company,DC=dom" -Filter *
 
 foreach ($Computer in $ComputerList)
 

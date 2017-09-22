@@ -1,5 +1,5 @@
 ﻿# Get Computer Object
-$computers = Get-ADComputer -Filter * -SearchBase "OU=Stockholm,OU=Laptops,OU=Windows 10,OU=Computers,OU=OFFICE,DC=office,DC=necorp,DC=dom"
+$computers = Get-ADComputer -Filter * -SearchBase "OU=Stockholm,OU=Laptops,OU=Windows 10,OU=Computers,OU=OFFICE,DC=office,DC=company,DC=dom"
 $index = @()
 
 foreach ($Computer in $computers)

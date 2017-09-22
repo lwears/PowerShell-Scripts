@@ -1,7 +1,7 @@
 ﻿# Fetch DNS settings from Domain Controllers
 #
 # Liam Wears (2017) 
-# Liam.wears@netent.com
+# liamwears@fastmail.com
 #
 # inspired from https://gallery.technet.microsoft.com/scriptcenter/Change-DNS-ip-addressess-912954b2
 #
